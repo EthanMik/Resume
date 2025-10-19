@@ -101,7 +101,7 @@
   #project-heading(
     "Minigame Roulette",
     "C# Unity",
-    "https://github.com/EthanMik/MinigameRoulette"
+    "https://github.com/EthanMik/minigame-roulette"
   )[
     - Developed a Unity game that has a collection of randomized minigames, selected via a roulette wheel
     - Implemented game selection logic and unified scoring across multiple minigame types
