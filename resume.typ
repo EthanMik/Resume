@@ -55,15 +55,17 @@
 
 #custom-title("Experience")[  
   #work-heading(
-    "Software Developer",                     // title
+    "Software Lead Intern",                     // title
     "WHOOP VEX U Robotics Team",                       // company
     "College Station, TX",                         // location
     datetime(year:2025, month:9, day:1),    // start-date
     "Present"                               // end-date
   )[
-    - Designed and planned a web path-planning app with slider-based simulation, X/Y field mirroring, and one-click auton code export
-    - Building app in React Typescript with Tailwind CSS
-    - Planned integration with existing motion library so each planned path is stored in current repository
+    - Developed a easy to use yet feature rich path planning, simulation, and generation website called #link("https://ethanmik.github.io/mikGen/")[mikGen]
+    - #link("https://ethanmik.github.io/mikGen/")[mikGen] is open source and supports several different motion librarys including ReveilLib, mikLib and Lemlib 
+    - Allowed rapid prototyping and development of autonomous creation and ReveilLib due to instant feedback
+    - Built #link("https://whooprobotics.github.io/WHOOPsim/")[WHOOPSim] which allows drivers to control a simulated robot with a VEX controller
+    - Improved ReveilLib drive algorithms by creating new options for the call site
   ]
   // More experiences ...
 ]
@@ -78,14 +80,14 @@
   - Implemented two-tracker IMU odometry, wall resetting, with turn, swing and drive to point, drive to pose, and follow path drive motions
   - Implemented reusable PID class and motion chaining, which values can be individually passed into each drive motion; SD-card save/load for tuning constants and selected autonomous
   - Documented with setup tutorials and Doxygen-style comments; actively maintained
-  - Used by 5+ high school robotics teams in competition
+  - 250+ downloads on Github, helped numerous teams over Discord
   ]  
   #project-heading(
     "Wall Reset Simulator",      // name
     "Javascript, HTML, CSS",
     "https://github.com/EthanMik/Wall-Reset-Simulator"
   )[
-  - Built a browser-based simulator to validate a wall-reset localization algorithm, using virtual lasers to estimate robot (x, y, θ) from distances to field walls
+  - Built a browser-based simulator to validate a wall-reset localization algorithm, using virtual lasers to estimate robot pose from distances to field walls
   - Implemented configurable front/left/right/rear lasers with sensor offsets, live visibility toggles, and field switching
   - Deployed on GitHub Pages with documentation
   ]
@@ -96,7 +98,7 @@
   )[
     - Built a customizable scene maker; scene is built with background and particles, with velocity, size and amount parameters; snowflake and rain particles are pre-built
     - Snowflakes are procedurally generated, and can be selected to rotate along the x, y and z axes 
-    - Placed 1st in the CS3 winter scene competition
+    - Placed 1st in CS3 winter scene competition
   ]
   #project-heading(
     "Minigame Roulette",
@@ -115,7 +117,7 @@
 #custom-title("Skills")[
   #skills()[
     - *Programming Languages* C++, Javascript, Typescript, Java, Python, C\#  
-    - *Technologies* Git, GitHub, VEXcode, PROS, raylib, Unity, React, Java AWT/Swing, VS Code, Fusion 360
+    - *Technologies* Git, GitHub, VEXcode, PROS, raylib, Unity, React, Tailwind, VS Code, Fusion 360
     - *Interests* Mountain biking, Lego, Origami
   ]
 ]
