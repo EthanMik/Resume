@@ -34,7 +34,7 @@
     "Texas A&M University",                    // institution
     "College Station, TX",                           // location
     "Bachelor of Science",                       // degree
-    "Computer Science",                // major
+    "Computer Engineering",                // major
     datetime(year: 2025, month: 8, day: 1),   // start-date
     "Present"   // end-date
   )[
@@ -59,14 +59,12 @@
     "WHOOP VEX U Robotics Team",                       // company
     "College Station, TX",                         // location
     datetime(year:2025, month:9, day:1),    // start-date
-    "Present"                               // end-date
-  )[
-    - Developed a easy to use yet feature rich path planning, simulation, and generation website called #link("https://ethanmik.github.io/mikGen/")[mikGen]
-    - #link("https://ethanmik.github.io/mikGen/")[mikGen] is open source and supports several different motion librarys including ReveilLib, mikLib and Lemlib 
-    - Allowed rapid prototyping and development of autonomous creation and ReveilLib due to instant feedback
+    "Present"                 )[
+    - Built #link("https://ethanmik.github.io/mikGen/")[mikGen], an open-source web-based path planning, simulation and code generation tool supporting mikLib, ReveilLib, and LemLib; adopted by 10+ teams during open beta
+    - Allowed rapid prototyping and development of autonomous routines and ReveilLib due to instant feedback 
     - Built #link("https://whooprobotics.github.io/WHOOPsim/")[WHOOPSim] which allows drivers to control a simulated robot with a VEX controller
-    - Improved ReveilLib drive algorithms by creating new options for the call site
-  ]
+    - Improved ReveilLib API by adding angle offsets, slew, named parameters, callbacks and automatic odometry tuning
+  ]                // end-date
   // More experiences ...
 ]
 
@@ -79,8 +77,8 @@
   - Open-source library for VEXcode adding odometry, motion control, and an on-brain custom UI framework for real-time PID tuning and autonomous selection
   - Implemented two-tracker IMU odometry, wall resetting, with turn, swing and drive to point, drive to pose, and follow path drive motions
   - Implemented reusable PID class and motion chaining, which values can be individually passed into each drive motion; SD-card save/load for tuning constants and selected autonomous
-  - Documented with setup tutorials and Doxygen-style comments; actively maintained
-  - 250+ downloads on Github, helped numerous teams over Discord
+  - Documented with setup tutorials and Doxygen-style comments; actively maintained, and updated
+  - 450+ downloads on Github, helped numerous teams over Discord
   ]  
   #project-heading(
     "Wall Reset Simulator",      // name
