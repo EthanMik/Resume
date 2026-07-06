@@ -55,15 +55,14 @@
 
 #custom-title("Experience")[  
   #work-heading(
-    "Software Lead Intern",                     // title
+    "Software Lead",                     // title
     "WHOOP VEX U Robotics Team",                       // company
     "College Station, TX",                         // location
     datetime(year:2025, month:9, day:1),    // start-date
     "Present"                 )[
-    - Built #link("https://ethanmik.github.io/mikGen/")[mikGen], an open-source web-based path planning, simulation and code generation tool supporting mikLib, ReveilLib, and LemLib; adopted by 10+ teams during open beta
-    - Allowed rapid prototyping and development of autonomous routines and ReveilLib due to instant feedback 
+    - Managed software members and delegated scoped projects with written requirements, references, and timelines: LVGL PID auto-tuner, LIDAR MCL localization simulator, velocity controller for holonomic drivetrains, and a logging system with graphing support
+    - Rewrote our team's ReveilLib library to include motion profiling, path following, holonomic motions, ray-casting localization, and a universal chassis controller
     - Built #link("https://whooprobotics.github.io/WHOOPsim/")[WHOOPSim] which allows drivers to control a simulated robot with a VEX controller
-    - Improved ReveilLib API by adding angle offsets, slew, named parameters, callbacks and automatic odometry tuning
   ]                // end-date
   // More experiences ...
 ]
@@ -75,10 +74,10 @@
     "https://github.com/EthanMik/mikLib"
   )[
   - Open-source library for VEXcode adding odometry, motion control, and an on-brain custom UI framework for real-time PID tuning and autonomous selection
-  - Implemented two-tracker IMU odometry, wall resetting, with turn, swing and drive to point, drive to pose, and follow path drive motions
+  - Implemented two-tracker IMU odometry, wall resetting, with turn, swing and drive to point, drive to pose, and holonomic motions
   - Implemented reusable PID class and motion chaining, which values can be individually passed into each drive motion; SD-card save/load for tuning constants and selected autonomous
-  - Documented with setup tutorials and Doxygen-style comments; actively maintained, and updated
-  - 450+ downloads on Github, helped numerous teams over Discord
+  - Documented with setup tutorials, Doxygen, and a Docusaurus website; actively maintained and updated
+  - 600+ downloads on Github, with discord community for support and development
   ]  
   #project-heading(
     "Wall Reset Simulator",      // name
@@ -99,14 +98,14 @@
     - Placed 1st in CS3 winter scene competition
   ]
   #project-heading(
-    "Minigame Roulette",
-    "C# Unity",
-    "https://github.com/EthanMik/minigame-roulette"
+    "mikGen",
+    "React, TypeScript, Tailwind",
+    "https://mikgen.com"
   )[
-    - Developed a Unity game that has a collection of randomized minigames, selected via a roulette wheel
-    - Implemented game selection logic and unified scoring across multiple minigame types
-    - Designed and programmed multiple interactive minigames with custom physics, movement, event handling and camera scripts
-    - Added UI for real-time score display and transitions that contain minigame controls
+    - Open-source web-based path planner, autonomous simulator, and code generator for VEX Robotics, supports mikLib, ReveilLib, LemLib, JAR-Template, EZ-Template and custom libraries
+    - Segment-based path building (move to point/pose, turn/swing, drive/strafe) with animated robot playback that runs each library's real constants and backend for accurate simulation
+    - Library-specific code export/import via clipboard or file, undo/redo with auto-save, box selection, snap-to-grid and magnet snapping, ghost robots, and numbered paths
+    - Built as a React and TypeScript offline PWA, with a Docusaurus getting-started guide
   ]
 ]
 
@@ -115,7 +114,7 @@
 #custom-title("Skills")[
   #skills()[
     - *Programming Languages* C++, Javascript, Typescript, Java, Python, C\#  
-    - *Technologies* Git, GitHub, Linux, CMake, Unity, React, Tailwind, VS Code, Fusion 360
+    - *Technologies* Git, GitHub, Linux, CMake, React, Vite, Tailwind, Unity, VS Code, Fusion 360
     - *Interests* Mountain biking, Lego, Origami
   ]
 ]
