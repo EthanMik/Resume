@@ -34,21 +34,21 @@
     "Texas A&M University",                    // institution
     "College Station, TX",                           // location
     "Bachelor of Science",                       // degree
-    "Computer Engineering",                // major
+    "Computer Science; Intended Minor in Electrical Engineering",                // major
     datetime(year: 2025, month: 8, day: 1),   // start-date
     "Present"   // end-date
   )[
    
-  ]
-  #education-heading(
-    "Lake Travis High School",                    // institution
-    "Austin, TX",                           // location
-    "High School Diploma",
-    "",                                  // degree
-    datetime(year: 2021, month: 8, day: 1),   // start-date
-    datetime(year: 2025, month: 5, day: 1)   // end-date
-  )[
-   - Published robotics tutorial series
+  // ]
+  // #education-heading(
+  //   "Lake Travis High School",                    // institution
+  //   "Austin, TX",                           // location
+  //   "High School Diploma",
+  //   "",                                  // degree
+  //   datetime(year: 2021, month: 8, day: 1),   // start-date
+  //   datetime(year: 2025, month: 5, day: 1)   // end-date
+  // )[
+  //  - Published robotics tutorial series
   ]
   // More educational qualifications ... 
 ]
@@ -60,8 +60,9 @@
     "College Station, TX",                         // location
     datetime(year:2025, month:9, day:1),    // start-date
     "Present"                 )[
-    - Managed software members and delegated scoped projects with written requirements, references, and timelines: LVGL PID auto-tuner, LIDAR MCL localization simulator, velocity controller for holonomic drivetrains, and a logging system with graphing support
-    - Rewrote our team's ReveilLib library to include motion profiling, path following, holonomic motions, ray-casting localization, and a universal chassis controller
+    - Manage and mentor software members, delegating them projects: LVGL PID auto-tuner, LIDAR MCL localization simulator, velocity controller for holonomic drivetrains, logger, limelight localization 
+    - Rewrote our team's ReveilLib library to include path following, holonomic motions, ray-casting localization, gain scheduling, and a universal chassis controller
+    - Currently working on serial communication between Raspberry Pi 5 and VEX Brain with ROS2 for external sensors 
     - Built #link("https://whooprobotics.github.io/WHOOPsim/")[WHOOPSim] which allows drivers to control a simulated robot with a VEX controller
   ]                // end-date
   // More experiences ...
@@ -114,7 +115,7 @@
 #custom-title("Skills")[
   #skills()[
     - *Programming Languages* C++, Javascript, Typescript, Java, Python, C\#  
-    - *Technologies* Git, GitHub, Linux, CMake, React, Vite, Tailwind, Unity, VS Code, Fusion 360
+    - *Technologies* Git, GitHub, Linux, CMake, React, Vite, Tailwind, Unity, ROS2, VS Code, Fusion 360
     - *Interests* Mountain biking, Lego, Origami
   ]
 ]
