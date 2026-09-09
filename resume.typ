@@ -115,7 +115,7 @@
 #custom-title("Skills")[
   #skills()[
     - *Programming Languages* C++, Javascript, Typescript, Java, Python, C\#  
-    - *Technologies* Git, GitHub, Linux, CMake, React, Vite, Tailwind, Unity, ROS2, VS Code, Fusion 360
+    - *Technologies* Git, GitHub, Linux, CMake, React, Vite, Docusaurus, Tailwind, Unity, ROS2, VS Code, Fusion 360
     - *Interests* Mountain biking, Lego, Origami
   ]
 ]
